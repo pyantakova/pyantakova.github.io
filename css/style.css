@@ -1,0 +1,138 @@
+body {
+            background: url(no-translate-detected_1048-1511.jpg) no-repeat;
+            color: #000000;
+            font-family: Trebuchet MS, Arial, Times New Roman;
+            font-size: 15px;
+            margin: 5;
+}
+body a{
+color:#093884;
+text-decoration:none;
+}
+
+#container {
+            border-radius: 20px;
+            background: #FFFFFF;
+            margin: 30px auto;
+            width: 900px;
+}
+ 
+img {
+    
+    margin: 5 10 0 5; /* Отступы вокруг картинки */
+   }
+#header {
+            border-radius: 20px;
+            height: 116px;
+            width: 900px;
+    float: center;
+}
+
+#navigation {
+            border-radius: 5px;
+            background: #badef2;
+            width: 900px;
+            height: 50px;
+            font-weight: bold;
+            float: center;
+}
+ 
+#content {
+            float: center;
+            padding:3px 10px; 
+            
+}
+
+#about{
+            border-radius: 10px 10px 0 0;
+            background: #badef2;
+            height: 25px;
+            width: 497px;
+            float:left;
+            font-weight: bold;
+    padding:15px 3px 3px 400px;
+}
+
+#commens1{
+    background: #e3f2f9;
+            float: left;
+            width: 435px;
+    padding:3px 10px;
+}
+ 
+#commens {
+            background: #e3f2f9;
+            float: right;
+            width: 435px;
+    padding:3px 5px;
+}
+
+#footer {
+            border-radius: 0 0 10px 10px;
+            background: #d8ebff;
+            height: 20px;
+            width: 890px;
+            float: left;
+            font-size: 13px;
+            padding:3px 5px;
+}
+
+#navigation ul{
+margin:0;
+padding:0;
+list-style-type:none;
+height:50px;
+width: 550px;
+float:center;
+font-size:16px;
+background: url(fon.png) repeat-x;
+font-family:Arial,Verdana,Helvitica,sans-serif;
+}
+
+
+ul li a{
+display:block;
+float:right;
+text-decoration:none;
+text-align:center;
+padding:15px 15px 5px 15px;
+height:30px;
+
+}
+
+ul li a:hover {
+color:#FFFFFF;
+background:url(fon2.png) repeat-x
+    
+}
+
+
+blockquote {
+display:block;
+background: #badef2;
+float:center;
+color: black;
+text-align:center;
+padding:5;
+width: 870px;
+margin: 0;
+color: #05265b;
+font-family: Arial;
+font-weight: bold;
+font-style:italic;
+border-radius: 13em 0.5em/1em 0.5em;
+}
+
+#scrollup {
+	position: fixed; /* фиксированная позиция */
+	opacity: 0.5; /* прозрачность */
+	padding: 15px 10px 10px; /* отступы */
+	background: #aaa;
+	border-radius: 5px; /* скругление углов */
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	left: 10px; /* отступ слева */
+	bottom: 10px; /* отступ снизу */
+	display: none; /* спрятать блок */
+	cursor: pointer;
+}
